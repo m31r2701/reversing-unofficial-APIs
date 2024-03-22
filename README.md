@@ -29,6 +29,10 @@ Before considering unofficial APIs, it is often worth checking whether or not th
 
 #### Web apps
 - [*Finding Undocumented APIs*](https://inspectelement.org/apis.html)
+- [Scraping XHR](https://scrapism.lav.io/scraping-xhr/)
+- [How to use undocumented web APIs](https://jvns.ca/blog/2022/03/10/how-to-use-undocumented-web-apis/)
+- [Computational research in the post-API age](https://dfreelon.org/publications/2018_Computational_research_in_the_postAPI_age.pdf)
+-[Web scraping 201: Finding the API](http://www.gregreda.com/2015/02/15/web-scraping-finding-the-api/)
 
 #### Mobile apps
 - [*How to use Ghidra to reverse engineer mobile application*](https://infosecwriteups.com/how-to-use-ghidra-to-reverse-engineer-mobile-application-c2c89dc5b9aa)
@@ -45,6 +49,13 @@ Before considering unofficial APIs, it is often worth checking whether or not th
 ### OSINT / SOCMINT tools
 - [Instaloader](https://github.com/instaloader/instaloader/tree/master)
 - [WhatsMyName](https://github.com/WebBreacher/WhatsMyName)
+
+### Use in journalism and academic research
+- https://gizmodo.com/ring-s-hidden-data-let-us-map-amazons-sprawling-home-su-1840312279
+- https://www.theguardian.com/us-news/2022/aug/25/porch-piracy-package-thefts-doorstep-delivery
+- https://site.dcalacci.net/papers/ring-cscw-2021.pdf
+- https://www.pnas.org/doi/full/10.1073/pnas.1717781115
+- https://source.opennews.org/articles/freeing-plum-book/
 
 ### "Alternative frontends"
 - [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends)
