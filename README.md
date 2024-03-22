@@ -1,8 +1,10 @@
-# reversing-unofficial-APIs
-Resources for reverse engineering web and mobile apps to discover and use “unofficial APIs” for OSINT / SOCMINT (and other purposes).
+# Reversing unofficial APIs
+Resources for reverse engineering web and mobile apps for the specific purpose of discovering and using “unofficial APIs” for OSINT / SOCMINT (and other purposes). 
+
+Before considering unofficial APIs, it is often worth checking whether or not the net platform publishes an official public / open / free API that will get you what you need.
 
 ## Tools
-### Unofficial API discovery
+### Discovery
 #### General
 - [Wireshark](https://www.wireshark.org)
 - [Portswigger Burp Suite](https://portswigger.net/burp/releases/professional-community-2024-1-1-6?requestededition=community&requestedplatform=)
@@ -19,7 +21,7 @@ Resources for reverse engineering web and mobile apps to discover and use “uno
 - Postman
 
 ## Reading
-### Unofficial API discovery
+### Discovery
 #### General
 - [*API Discovery: 15 ways to find APIs*](https://nordicapis.com/api-discovery-15-ways-to-find-apis/)
 - [*Discover APIs* section on unofficial APIs](https://stevesie.com/docs/discover-apis#unofficial-apis)
@@ -34,10 +36,10 @@ Resources for reverse engineering web and mobile apps to discover and use “uno
 - [*Can ZAP be used to test mobile apps?*](https://www.zaproxy.org/faq/can-zap-be-used-to-test-mobile-apps/)
 - [Use Burp Suite for mobile testing](https://portswigger.net/burp/documentation/desktop/mobile)
 
-## Unofficial API examples
+## Examples
 - [Rolstenhouse/unofficial-apis](https://github.com/Rolstenhouse/unofficial-apis)
 
-### Unofficial clients
+### Third-party / unofficial clients
 - [Telethon](https://github.com/LonamiWebs/Telethon)
 
 ### OSINT / SOCMINT tools
@@ -48,3 +50,6 @@ Resources for reverse engineering web and mobile apps to discover and use “uno
 - [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends)
 - [Invidious](https://github.com/iv-org/invidious)
 - [Nitter](https://github.com/zedeus/nitter)
+
+## Disclaimer
+Reversing unofficial APIs and using them may violate terms of service depending on the platform and, in certain circumstances, the laws of your country. The information presented here is for educational purposes only: I am neither responsible nor liable for your actions. Do no evil.
