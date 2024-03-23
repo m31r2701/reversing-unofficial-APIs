@@ -1,7 +1,9 @@
 # Awesome unofficial API reversing
 Resources for reverse engineering web and native apps (especially mobile) for the specific purpose of discovering and using “unofficial APIs” (aka "undocumented APIs") for OSINT / SOCMINT and other purposes. 
 
-Before considering unofficial APIs, it is often worth checking whether or not the target platform publishes an official public / open / free API that will get you what you need.
+Before considering unofficial APIs, it is often worth checking whether or not the target platform publishes an official public and/or free API that will get you what you need. There are some great repos on Github listing public and free APIs.
+
+Additionally, it may not be necessary to reverse an undocumented API yourself if someone has already published a comprehensive unofficial client. Many instances of these may also be found on Github.
 
 ## Pre-requisite knowledge
 ### Concepts
@@ -51,6 +53,8 @@ Before considering unofficial APIs, it is often worth checking whether or not th
 Reconnaissance and enumeration phase.
 
 ### General
+Note, many of the tools in this discovery section imply a black-box scenario. If the target platform is fully open source or even partly so, it may be possible to enumerate unofficial API endpoints by simply reading the source code. There may also be official documentation publicly available that will help with this and serve as an aide-mémoire when you come to the "fuzzing" and "collection" phases of the process.
+
 #### Tools
 - [Wireshark](https://www.wireshark.org)
 - [Portswigger Burp Suite](https://portswigger.net/burp/releases/professional-community-2024-1-1-6?requestededition=community&requestedplatform=)
@@ -87,8 +91,11 @@ Any of the General tools for discovery, plus:
 - [*Can ZAP be used to test mobile apps?*](https://www.zaproxy.org/faq/can-zap-be-used-to-test-mobile-apps/)
 - [Use Burp Suite for mobile testing](https://portswigger.net/burp/documentation/desktop/mobile)
 
+## Documentation
+If you are mapping several endpoints, and especially if you are attempting a comprehensive unofficial client build, it is worth documenting in detail what you find during the discovery phase. You may wish to consider keeping track of requests and responses in full (including payloads, headers, etc.). There are also tools used by developers of official APIs to document their implementation that work just as well for reverse engineers of unofficial APIs.
+
 ## Fuzzing
-Automated and manual testing phase.
+Automated and manual testing phase to check everything works.
 - curl
 - Postman
 
