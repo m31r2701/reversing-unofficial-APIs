@@ -1,5 +1,5 @@
-# Reversing unofficial APIs
-Resources for reverse engineering web and mobile apps for the specific purpose of discovering and using “unofficial APIs” for OSINT / SOCMINT (and other purposes). 
+# Awesome unofficial API reversing
+Resources for reverse engineering web and mobile apps for the specific purpose of discovering and using “unofficial APIs” (also called "undocumented APIs") for OSINT / SOCMINT and other purposes. 
 
 Before considering unofficial APIs, it is often worth checking whether or not the target platform publishes an official public / open / free API that will get you what you need.
 
