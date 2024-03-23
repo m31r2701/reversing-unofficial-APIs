@@ -59,6 +59,9 @@ Before considering unofficial APIs, it is often worth checking whether or not th
 - [*Discover APIs* section on unofficial APIs](https://stevesie.com/docs/discover-apis#unofficial-apis)
 - [*How To Find API Endpoints Of A Website: A Complete Guide*](https://techreviewgarden.com/how-to-find-api-endpoints-of-a-website/)
 
+#### Watch
+- [soxoj](https://github.com/soxoj)'s [Hardcore OSINT : Reversing social media mechanisms](https://www.youtube.com/watch?v=0yQRf0Mx-hc)
+
 ### Web apps (inc. PWAs)
 #### Tools
 Any of the General tools for discovery, plus:
@@ -92,6 +95,10 @@ Any of the General tools for discovery, plus:
 ### OSINT / SOCMINT tools
 - [Instaloader](https://github.com/instaloader/instaloader/tree/master)
 - [WhatsMyName](https://github.com/WebBreacher/WhatsMyName)
+
+### Stories
+- The prologue of [Darknet Diaries Episode 120: Voulnet](https://darknetdiaries.com/transcript/120/)
+- The main narrative of [Darknet Diaries Episode 84: Jet-setters](https://darknetdiaries.com/transcript/84/)
 
 ### Use in journalism and academic research
 - https://gizmodo.com/ring-s-hidden-data-let-us-map-amazons-sprawling-home-su-1840312279
