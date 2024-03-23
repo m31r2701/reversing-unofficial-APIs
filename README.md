@@ -48,6 +48,8 @@ Before considering unofficial APIs, it is often worth checking whether or not th
 - https://en.wikipedia.org/wiki/GraphQL
 
 ## Discovery
+Reconnaissance and enumeration phase.
+
 ### General
 #### Tools
 - [Wireshark](https://www.wireshark.org)
@@ -85,9 +87,21 @@ Any of the General tools for discovery, plus:
 - [*Can ZAP be used to test mobile apps?*](https://www.zaproxy.org/faq/can-zap-be-used-to-test-mobile-apps/)
 - [Use Burp Suite for mobile testing](https://portswigger.net/burp/documentation/desktop/mobile)
 
-## Testing and using
+## Fuzzing
+Automated and manual testing phase.
 - curl
 - Postman
+
+## Collection
+Requests made and data returned from API for your specific purpose.
+
+### Python
+- requests
+- BeautifulSoup4
+- asyncio
+
+## Evading detection
+There are various techniques that can be used to prevent a platform detecting and blocking an unofficial API client.
 
 ## Examples
 - [Rolstenhouse/unofficial-apis](https://github.com/Rolstenhouse/unofficial-apis)
