@@ -67,6 +67,7 @@ Note, many of the tools in this discovery section imply a black-box scenario. If
 
 #### Watch
 - [soxoj](https://github.com/soxoj)'s [Hardcore OSINT : Reversing social media mechanisms](https://www.youtube.com/watch?v=0yQRf0Mx-hc)
+- Jan Lauridtsen's 2024 SANS OSINT Summit lecture *[Uncovering the invisible gold mines: How to dump raw data from TikTok](https://youtube.com/watch?v=MQumdWDR0C4)* on dumping raw data from apps built with a React frontend.
 
 ### Web apps (inc. PWAs)
 #### Tools
