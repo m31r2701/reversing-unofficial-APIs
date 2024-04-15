@@ -67,7 +67,6 @@ Note, many of the tools in this discovery section imply a black-box scenario. If
 
 #### Watch
 - [soxoj](https://github.com/soxoj)'s [Hardcore OSINT : Reversing social media mechanisms](https://www.youtube.com/watch?v=0yQRf0Mx-hc)
-- Jan Lauridtsen's 2024 SANS OSINT Summit lecture *[Uncovering the invisible gold mines: How to dump raw data from TikTok](https://youtube.com/watch?v=MQumdWDR0C4)* on dumping raw data from apps built with a React frontend.
 
 ### Web apps (inc. PWAs)
 #### Tools
@@ -107,6 +106,9 @@ Requests made and data returned from API for your specific purpose.
 - requests
 - BeautifulSoup4
 - asyncio
+
+### Don't know how to code?
+- Jan Lauridtsen's 2024 SANS OSINT Summit lecture *[Uncovering the invisible gold mines: How to dump raw data from TikTok](https://youtube.com/watch?v=MQumdWDR0C4)* on dumping raw data from apps built with a React frontend. [Jan's Github repo for this talk here](https://github.com/janhalendk/react).
 
 ## Evading detection
 There are various techniques that can be used to prevent a platform detecting and blocking an unofficial API client.
