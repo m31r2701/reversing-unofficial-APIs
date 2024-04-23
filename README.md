@@ -7,7 +7,7 @@ Additionally, it may not be necessary to reverse an undocumented API yourself if
 
 ## Pre-requisite knowledge
 
-Provided you have used a computer and/or the internet before, no knowledge is really "required" to go exploring in the world of unofficial APIs. It's also not necessary to be able to read code, program, or use specialist tools when you first start out. Knowledge and skills will be picked up gradually and easily over time if you find it interesting.
+Provided you know how to use a computer and access the internet, you don't really need to know much else to begin exploring the world of unofficial APIs. It's also not necessary to be able to read code, program, or use specialist tools when you first start out. Knowledge and skills will be picked up gradually and easily over time if you find it interesting.
 
 Here's an entirely optional (and opinionated) list of pages on Wikipedia that give a pretty good crash course in concepts and jargon:
 
