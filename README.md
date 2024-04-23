@@ -6,48 +6,40 @@ Before considering unofficial APIs, it is often worth checking whether or not th
 Additionally, it may not be necessary to reverse an undocumented API yourself if someone has already published a comprehensive unofficial client. Many instances of these may also be found on Github.
 
 ## Pre-requisite knowledge
-### Concepts
-- https://en.wikipedia.org/wiki/API
-- https://en.wikipedia.org/wiki/Client–server_model
-- https://en.wikipedia.org/wiki/Frontend_and_backend
-- https://en.wikipedia.org/wiki/Communication_endpoint
-- https://en.wikipedia.org/wiki/Request–response
-- https://en.wikipedia.org/wiki/Synchronous_serial_communication
-- https://en.wikipedia.org/wiki/Asynchronous_serial_communication
-- https://en.wikipedia.org/wiki/Web_2.0
-- https://en.wikipedia.org/wiki/Web_server
-- https://en.wikipedia.org/wiki/Mobile_app
-- https://en.wikipedia.org/wiki/Access_token
-- https://en.wikipedia.org/wiki/Web_service
-- https://en.wikipedia.org/wiki/Mashup_(web_application_hybrid)
 
-### HTTP
-- TCP/IP Chapter 9, Section 4 [*TCP/IP Key Applications and Application Protocols*](http://www.tcpipguide.com/free/t_TCPIPKeyApplicationsandApplicationProtocols.htm), more specifically [the content in this section relating to HTTP](http://www.tcpipguide.com/free/t_TCPIPWorldWideWebWWWTheWebandtheHypertextTransferP.htm)
+Provided you have used a computer and/or the internet before, no knowledge is really "required" to go exploring in the world of unofficial APIs. It's also not necessary to be able to read code, program, or use specialist tools when you first start out. Knowledge and skills will be picked up gradually and easily over time if you find it interesting.
 
-### Web apps
-- https://en.wikipedia.org/wiki/Web_application
-- https://en.wikipedia.org/wiki/Responsive_web_design
-- https://en.wikipedia.org/wiki/Dynamic_web_page
+Here's an entirely optional (and opinionated) list of pages on Wikipedia that give a pretty good crash course in concepts and jargon:
 
-#### SPAs
-- https://en.wikipedia.org/wiki/Single-page_application
-- https://business.adobe.com/blog/basics/differences-between-traditional-web-apps-and-single-page-apps
-- https://www.spiceworks.com/tech/devops/articles/what-is-single-page-application/#_002
+- [Web 2.0](https://en.wikipedia.org/wiki/Web_2.0)
+- [Web service](https://en.wikipedia.org/wiki/Web_service)
+- [Request-response](https://en.wikipedia.org/wiki/Request–response)
+- [Client-server model](https://en.wikipedia.org/wiki/Client–server_model)
+- [Frontend and backend](https://en.wikipedia.org/wiki/Frontend_and_backend)
+- [Web server](https://en.wikipedia.org/wiki/Web_server)
+- [XML](https://en.wikipedia.org/wiki/XML)
+- [XMLHttpRequest](https://en.wikipedia.org/wiki/XMLHttpRequest)
+- [Web app](https://en.wikipedia.org/wiki/Web_application)
+- [Dynamic webpage](https://en.wikipedia.org/wiki/Dynamic_web_page)
+- [Responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design)
+- [Single-page application](https://en.wikipedia.org/wiki/Single-page_application)
+- [Progressive web app](https://en.wikipedia.org/wiki/Progressive_web_app)
+- [Mobile app](https://en.wikipedia.org/wiki/Mobile_app)
+- [API](https://en.wikipedia.org/wiki/API)
+- [Web API](https://en.wikipedia.org/wiki/Web_API)
+- [OpenAPI](https://en.wikipedia.org/wiki/OpenAPI_Specification)
+- [JSON](https://en.wikipedia.org/wiki/JSON)
+- [REST](https://en.wikipedia.org/wiki/REST)
+- [GraphQL](https://en.wikipedia.org/wiki/GraphQL)
+- [Mashup](https://en.wikipedia.org/wiki/Mashup_(web_application_hybrid))
+- [Access token](https://en.wikipedia.org/wiki/Access_token)
+- [Synchronous](https://en.wikipedia.org/wiki/Synchronous_serial_communication)
+- [Asynchronous](https://en.wikipedia.org/wiki/Asynchronous_serial_communication)
+- [Ajax](https://en.wikipedia.org/wiki/Ajax_(programming))
+- [Webhook](https://en.wikipedia.org/wiki/Webhook)
+- [WebSocket](https://en.wikipedia.org/wiki/WebSocket)
 
-#### PWAs
-- https://en.wikipedia.org/wiki/Progressive_web_app
-
-### Web APIs
-- https://en.wikipedia.org/wiki/Web_API
-- https://en.wikipedia.org/wiki/Ajax_(programming)
-- https://en.wikipedia.org/wiki/XMLHttpRequest
-- https://en.wikipedia.org/wiki/WebSocket
-- https://en.wikipedia.org/wiki/XML
-- https://en.wikipedia.org/wiki/JSON
-- https://en.wikipedia.org/wiki/Webhook
-- https://en.wikipedia.org/wiki/OpenAPI_Specification
-- https://en.wikipedia.org/wiki/REST
-- https://en.wikipedia.org/wiki/GraphQL
+Afterwards, it's worth reading *TCP/IP* Chapter 9, Section 4 [*TCP/IP Key Applications and Application Protocols*](http://www.tcpipguide.com/free/t_TCPIPKeyApplicationsandApplicationProtocols.htm), more specifically [the content in this section relating to HTTP](http://www.tcpipguide.com/free/t_TCPIPWorldWideWebWWWTheWebandtheHypertextTransferP.htm).
 
 ## Discovery
 Reconnaissance and enumeration phase.
