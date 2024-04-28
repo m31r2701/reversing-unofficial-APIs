@@ -1,7 +1,7 @@
 # Awesome unofficial API reversing
 Resources for reverse engineering web and native apps (especially mobile) for the specific purpose of discovering and using “unofficial APIs” (aka "undocumented APIs") for OSINT / SOCMINT and other purposes. 
 
-Before considering unofficial APIs, it is often worth checking whether or not the target platform publishes an official public and/or free API that will get you what you need. There are some great repos on Github listing public and free APIs.
+Before considering unofficial APIs, it is often worth checking whether or not the target platform publishes an official public and/or free API that will get you what you need. There are some great repos on Github listing public and free APIs. 
 
 Additionally, it may not be necessary to reverse an undocumented API yourself if someone has already published a comprehensive unofficial client. Many instances of these may also be found on Github.
 
@@ -115,7 +115,7 @@ There are various techniques that can be used to prevent a platform detecting an
 - IP rotation: works better with residential rather than with data centre IP addresses typically provided by VPNs or proxies - this is likely to be quite expensive, however. [Using AWS Lambda for easy-mode IP rotation or even an array of dongles to get mobile / cell IPs are also inventive strategies](https://incolumitas.com/2021/11/03/so-you-want-to-scrape-like-the-big-boys/)
 - Cloudflare evasion: several methods include trawling Shodan and Censys for server IPs behind Cloudflare IPs (exposed as a result of misconfiguration) to bypass Cloudflare - this is usually the most productive approach, though is not the only one. Do not accidentally DOS or DDOS the service - this is likely to be illegal.
 
-As with anti-fingerprinting, block evasion in general is a complex and fast changing area. The hard work will be ensuring the code you write today continues to work. Always stay on the right side of the law and don't do anything that you will be unable to defend.
+As with anti-fingerprinting, block evasion in general is a complex and fast changing area. The hard work will be ensuring the code you write today continues to work as fingerprinting and anti-bot measures evolve. This dynamism is compounded by target sites occasionally refactoring their APIs. Always stay on the right side of the law and don't do anything that you will be unable to defend (possibly in a court of law).
 
 ## Examples
 - [Rolstenhouse/unofficial-apis](https://github.com/Rolstenhouse/unofficial-apis)
@@ -134,15 +134,25 @@ As with anti-fingerprinting, block evasion in general is a complex and fast chan
 - https://site.dcalacci.net/papers/ring-cscw-2021.pdf
 - https://www.pnas.org/doi/full/10.1073/pnas.1717781115
 - https://source.opennews.org/articles/freeing-plum-book/
+- 
 
 ### "Alternative frontends"
 - [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends)
 - [Invidious](https://github.com/iv-org/invidious)
 - [Nitter](https://github.com/zedeus/nitter)
 
-## Isn't this just this web scraping thing i've head about but with more steps?
+## Isn't this just that web scraping thing i've head about but with more steps?
 
-There is an undeniable degree of overlap between conventional web scraping and unofficial API reversing. Nevertheless, considering the latter to be merely a subset of web scraping ignores the fact that the term "web scraping" really denotes "screen scraping": parsing and extracting data from the DOM of a rendered webpage (even using computer vision tech to grab imagery as well as text). Unofficial API reversing has the same objective but has its own set of methods (beyond some common approaches), and it does neither the topic at hand nor web scraping any favours by conflating the two. Sometimes when you're reaching for an unofficial means of extracting data, web scraping will be the tool you need and at other times unofficial APIs will be.
+There is an undeniable degree of overlap between conventional web scraping and unofficial API reversing. Nevertheless, considering the latter to be merely a subset of web scraping ignores the fact that when people talk about "web scraping" they really mean "screen scraping": parsing and extracting data from the DOM of a rendered webpage (even using computer vision tech to grab imagery as well as text). Unofficial API reversing has the same objective (i.e., extracting data) but has its own set of methods (beyond some common approaches), and it does neither the topic at hand nor web scraping any favours by conflating the two. Sometimes when you're reaching for an unofficial means of extracting data, web scraping will be the tool you need and at other times unofficial APIs will be.
+
+## PSA for UK counterterrorism organisations
+
+Thank you for your service.
+
+A public API that may prove especially helpful for supporting your work targeting XRW individuals and groups is [Open Measures, formerly known as the Social Media Analysis Toolkit (SMAT)](https://openmeasures.io).
+
+In terms of "rolling-your-own" client to directly ingest SOCMINT from unofficial APIs: given that extremists and terrorists (in general not just the XRW) typically don't frequent the biggest mainstream platforms (with one exception), nearly all of the places they hang out in online are trivial to grab data from reliably using the information above.
 
 ## Disclaimer
-Reversing unofficial APIs and using them may violate terms of service depending on the platform and, in certain circumstances, the laws of your country. Legal risks are likely to be similar to those described on the [Wikipedia entry on web scraping](https://en.wikipedia.org/wiki/Web_scraping#Legal_issues), though they will vary given how marked the difference can be in approach between unofficial API reversing and web scraping. Legal threats around [reversing](https://en.wikipedia.org/wiki/Reverse_engineering#Legality) are worth looking into to supplement the aforementioned. The information presented here is for educational purposes only: I am neither responsible nor liable for your actions. Do no evil.
+
+Reversing unofficial APIs and using them may violate terms of service depending on the platform and, in certain circumstances, the laws of your country. Legal risks are similar to those described on the [Wikipedia entry on web scraping](https://en.wikipedia.org/wiki/Web_scraping#Legal_issues), though they will vary given how marked the difference can be in approach between unofficial API reversing and conventional web scraping. Legal threats around [reverse engineering](https://en.wikipedia.org/wiki/Reverse_engineering#Legality) are worth looking into to supplement the aforementioned. The information presented here is for educational purposes only: I am neither responsible nor liable for your actions. Do no evil.
