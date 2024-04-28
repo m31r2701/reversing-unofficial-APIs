@@ -41,6 +41,8 @@ Here's an entirely optional (and opinionated) list of pages on Wikipedia that gi
 
 Afterwards, it's worth reading *TCP/IP* Chapter 9, Section 4 [*TCP/IP Key Applications and Application Protocols*](http://www.tcpipguide.com/free/t_TCPIPKeyApplicationsandApplicationProtocols.htm), more specifically [the content in this section relating to HTTP](http://www.tcpipguide.com/free/t_TCPIPWorldWideWebWWWTheWebandtheHypertextTransferP.htm).
 
+Although reversing unofficial APIs is demonstrably **not** API hacking, documentation from Portswigger on [API testing](https://portswigger.net/web-security/api-testing) and [GraphQL](https://portswigger.net/web-security/graphql), as well as [OWASP](https://owasp.org/API-Security/editions/2023/en/0x00-header/) and the [Portswigger mapping to OWASP](https://portswigger.net/web-security/api-testing/top-10-api-vulnerabilities), are informative.
+
 ## Discovery
 Reconnaissance and enumeration phase.
 
@@ -51,6 +53,7 @@ Note, many of the tools in this discovery section imply a black-box scenario. If
 - [Wireshark](https://www.wireshark.org)
 - [Portswigger Burp Suite](https://portswigger.net/burp/releases/professional-community-2024-1-1-6?requestededition=community&requestedplatform=)
 - [OWASP ZAP](https://www.zaproxy.org)
+- [weAudit VSCode extension](https://blog.trailofbits.com/2024/03/19/read-code-like-a-pro-with-our-weaudit-vscode-extension/) for taking notes while reading an open-source codebase
 
 #### Reading
 - [*API Discovery: 15 ways to find APIs*](https://nordicapis.com/api-discovery-15-ways-to-find-apis/)
@@ -76,6 +79,7 @@ Any of the General tools for discovery, plus:
 #### Tools
 Any of the General tools for discovery, plus:
 - [Ghidra](https://github.com/NationalSecurityAgency/ghidra)
+- [Android Emulator, packaged with Android Studio](https://developer.android.com/studio/run/emulator)
 
 #### Reading
 - [*How to use Ghidra to reverse engineer mobile application*](https://infosecwriteups.com/how-to-use-ghidra-to-reverse-engineer-mobile-application-c2c89dc5b9aa)
@@ -103,7 +107,15 @@ Requests made and data returned from API for your specific purpose.
 - Jan Lauridtsen's 2024 SANS OSINT Summit lecture *[Uncovering the invisible gold mines: How to dump raw data from TikTok](https://youtube.com/watch?v=MQumdWDR0C4)* on dumping raw data from apps built with a React frontend. [Jan's Github repo for this talk here](https://github.com/janhalendk/react).
 
 ## Evading detection
-There are various techniques that can be used to prevent a platform detecting and blocking an unofficial API client.
+There are various techniques that can be used to prevent a platform detecting and blocking an unofficial API client:
+
+- Browser emulation arouses less suspicion
+- User agent switching, provided contradictory and / or unique fingerprint not emitted by your client
+  - Note: anti-fingerprinting measures, beyond user agent switching, quickly get complex and there's a continual arms race between fingerprinters / anti-fingerprinters
+- IP rotation: works better with residential rather than with data centre IP addresses typically provided by VPNs or proxies - this is likely to be quite expensive, however. [Using AWS Lambda for easy-mode IP rotation or even an array of dongles to get mobile / cell IPs are also inventive strategies](https://incolumitas.com/2021/11/03/so-you-want-to-scrape-like-the-big-boys/)
+- Cloudflare evasion: several methods include trawling Shodan and Censys for server IPs behind Cloudflare IPs (exposed as a result of misconfiguration) to bypass Cloudflare - this is usually the most productive approach, though is not the only one. Do not accidentally DOS or DDOS the service - this is likely to be illegal.
+
+As with anti-fingerprinting, block evasion in general is a complex and fast changing area. The hard work will be ensuring the code you write today continues to work. Always stay on the right side of the law and don't do anything that you will be unable to defend.
 
 ## Examples
 - [Rolstenhouse/unofficial-apis](https://github.com/Rolstenhouse/unofficial-apis)
