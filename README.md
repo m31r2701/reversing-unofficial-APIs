@@ -142,7 +142,6 @@ As with anti-fingerprinting, block evasion in general is a complex and fast chan
 - https://site.dcalacci.net/papers/ring-cscw-2021.pdf
 - https://www.pnas.org/doi/full/10.1073/pnas.1717781115
 - https://source.opennews.org/articles/freeing-plum-book/
-- 
 
 ### "Alternative frontends"
 - [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends)
