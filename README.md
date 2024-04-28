@@ -5,6 +5,14 @@ Before considering unofficial APIs, it is often worth checking whether or not th
 
 Additionally, it may not be necessary to reverse an undocumented API yourself if someone has already published a comprehensive unofficial client. Many instances of these may also be found on Github.
 
+### PSA for UK counterterrorism organisations
+
+Thank you for your service.
+
+A public API that may prove especially helpful for supporting your work targeting XRW individuals and groups is [Open Measures, formerly known as the Social Media Analysis Toolkit (SMAT)](https://openmeasures.io).
+
+In terms of "rolling-your-own" client to directly ingest SOCMINT from unofficial APIs: given that extremists and terrorists (in general not just the XRW) typically don't frequent the biggest mainstream platforms (with one exception), nearly all of the places they hang out in online are trivial to grab data from reliably using the information below.
+
 ## Pre-requisite knowledge
 
 Provided you know how to use a computer and access the internet, you don't really need to know much else to begin exploring the world of unofficial APIs. It's also not necessary to be able to read code, program, or use specialist tools when you first start out. Knowledge and skills will be picked up gradually and easily over time if you find it interesting.
@@ -144,14 +152,6 @@ As with anti-fingerprinting, block evasion in general is a complex and fast chan
 ## Isn't this just that web scraping thing i've head about but with more steps?
 
 There is an undeniable degree of overlap between conventional web scraping and unofficial API reversing. Nevertheless, considering the latter to be merely a subset of web scraping ignores the fact that when people talk about "web scraping" they really mean "screen scraping": parsing and extracting data from the DOM of a rendered webpage (even using computer vision tech to grab imagery as well as text). Unofficial API reversing has the same objective (i.e., extracting data) but has its own set of methods (beyond some common approaches), and it does neither the topic at hand nor web scraping any favours by conflating the two. Sometimes when you're reaching for an unofficial means of extracting data, web scraping will be the tool you need and at other times unofficial APIs will be.
-
-## PSA for UK counterterrorism organisations
-
-Thank you for your service.
-
-A public API that may prove especially helpful for supporting your work targeting XRW individuals and groups is [Open Measures, formerly known as the Social Media Analysis Toolkit (SMAT)](https://openmeasures.io).
-
-In terms of "rolling-your-own" client to directly ingest SOCMINT from unofficial APIs: given that extremists and terrorists (in general not just the XRW) typically don't frequent the biggest mainstream platforms (with one exception), nearly all of the places they hang out in online are trivial to grab data from reliably using the information above.
 
 ## Disclaimer
 
