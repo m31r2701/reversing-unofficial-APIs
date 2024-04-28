@@ -140,5 +140,9 @@ As with anti-fingerprinting, block evasion in general is a complex and fast chan
 - [Invidious](https://github.com/iv-org/invidious)
 - [Nitter](https://github.com/zedeus/nitter)
 
+## Isn't this just this web scraping thing i've head about but with more steps?
+
+There is an undeniable degree of overlap between conventional web scraping and unofficial API reversing. Nevertheless, considering the latter to be merely a subset of web scraping ignores the fact that the term "web scraping" really denotes "screen scraping": parsing and extracting data from the DOM of a rendered webpage (even using computer vision tech to grab imagery as well as text). Unofficial API reversing has the same objective but has its own set of methods (beyond some common approaches), and it does neither the topic at hand nor web scraping any favours by conflating the two. Sometimes when you're reaching for an unofficial means of extracting data, web scraping will be the tool you need and at other times unofficial APIs will be.
+
 ## Disclaimer
-Reversing unofficial APIs and using them may violate terms of service depending on the platform and, in certain circumstances, the laws of your country. The information presented here is for educational purposes only: I am neither responsible nor liable for your actions. Do no evil.
+Reversing unofficial APIs and using them may violate terms of service depending on the platform and, in certain circumstances, the laws of your country. Legal risks are likely to be similar to those described on the [Wikipedia entry on web scraping](https://en.wikipedia.org/wiki/Web_scraping#Legal_issues), though they will vary given how marked the difference can be in approach between unofficial API reversing and web scraping. Legal threats around [reversing](https://en.wikipedia.org/wiki/Reverse_engineering#Legality) are worth looking into to supplement the aforementioned. The information presented here is for educational purposes only: I am neither responsible nor liable for your actions. Do no evil.
