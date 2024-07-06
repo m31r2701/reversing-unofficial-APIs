@@ -62,6 +62,7 @@ Note, many of the tools in this discovery section imply a black-box scenario. If
 - [Portswigger Burp Suite](https://portswigger.net/burp/releases/professional-community-2024-1-1-6?requestededition=community&requestedplatform=)
 - [OWASP ZAP](https://www.zaproxy.org)
 - [weAudit VSCode extension](https://blog.trailofbits.com/2024/03/19/read-code-like-a-pro-with-our-weaudit-vscode-extension/) for taking notes while reading an open-source codebase
+- https://owasp.org/www-project-web-security-testing-guide/stable/6-Appendix/A-Testing_Tools_Resource
 
 #### 📖 Reading
 - [*API Discovery: 15 ways to find APIs*](https://nordicapis.com/api-discovery-15-ways-to-find-apis/)
@@ -82,6 +83,7 @@ Any of the General tools for discovery, plus:
 - [How to use undocumented web APIs](https://jvns.ca/blog/2022/03/10/how-to-use-undocumented-web-apis/)
 - [Computational research in the post-API age](https://dfreelon.org/publications/2018_Computational_research_in_the_postAPI_age.pdf)
 - [Web scraping 201: Finding the API](http://www.gregreda.com/2015/02/15/web-scraping-finding-the-api/)
+- https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/12-API_Testing/01-Testing_GraphQL this is worth reading as it provides useful content on GraphQL APIs. However, bear in mind that unofficial API reversing is NOT ipso facto about hunting for 0days or trying to exploit the application (unless you are, for instance, participating in a recognise bug bounty program or on a pentest engagement).
 
 ### Native apps (inc. mobile apps)
 #### 🛠️ Tools
