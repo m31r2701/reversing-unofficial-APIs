@@ -9,9 +9,9 @@ Additionally, it may not be necessary to reverse an undocumented API yourself if
 
 Thank you for your service.
 
-A public API that may prove especially helpful for supporting your work targeting XRW individuals and groups is [Open Measures, formerly known as the Social Media Analysis Toolkit (SMAT)](https://openmeasures.io).
+A public API that may prove especially helpful for supporting your work is [Open Measures, formerly known as the Social Media Analysis Toolkit (SMAT)](https://openmeasures.io).
 
-In terms of "rolling-your-own" client to directly ingest SOCMINT from unofficial APIs: given that extremists and terrorists (in general not just the XRW) typically don't frequent the biggest mainstream platforms (with one exception), nearly all of the places they hang out in online are trivial to grab data from reliably using the information below.
+In terms of "rolling-your-own" client to directly ingest SOCMINT from unofficial APIs: given that extremists and terrorists are less likely to frequent the biggest mainstream platforms, nearly all of the places they hang out in online are trivial to grab data from reliably using the information below.
 
 ## 🧠 Pre-requisite knowledge
 
@@ -134,9 +134,18 @@ Any of the General tools for discovery, plus:
 If you are mapping several endpoints, and especially if you are attempting a comprehensive unofficial client build, it is worth documenting in detail what you find during the discovery phase. You may wish to consider keeping track of requests and responses in full (including payloads, headers, etc.). There are also tools used by developers of official APIs to document their implementation that work just as well for reverse engineers of unofficial APIs.
 
 ## 🧪 Fuzzing
-Automated and manual testing phase to check everything works.
+Testing phase to check everything works. This isn't really an independent stage: it's an experimental cycle which bridges the gap between (and overlaps with) the discovery and collection phases.
+
+Early on, you may (optionally) want to use these tools to make easy and quick test requests to endpoints you have found:
+
 - curl
 - Postman
+
+Some may be more comfortable using the same programming language they elect to use in the collection phase. For example, I usually reach straight for Python rather than using either of the above. 
+
+If you like Python, Jupyter Notebooks are excellent for documenting test requests before (if you are planning to) starting work on building an application in your preferred language to use the unofficial API.
+
+After running your test request(s), you may be reviewing enumerated data (or generating new data) if an error occurred, running further tests on the same or different endpoints, or moving onto the collection phase. 
 
 ## 🧑‍🌾 Collection
 Requests made and data returned from API for your specific purpose.
