@@ -88,12 +88,36 @@ Any of the General tools for discovery, plus:
 Any of the General tools for discovery, plus:
 - [Ghidra](https://github.com/NationalSecurityAgency/ghidra)
 - [Android Emulator, packaged with Android Studio](https://developer.android.com/studio/run/emulator)
+- https://mas.owasp.org/MASTG/tools/
 
 #### 📖 Reading
 - [*How to use Ghidra to reverse engineer mobile application*](https://infosecwriteups.com/how-to-use-ghidra-to-reverse-engineer-mobile-application-c2c89dc5b9aa)
 - [*Reverse engineering an Android application*](https://epic.blog/reverse-engineering/2020/07/27/reverse-engineering-android-app.html)
 - [*Can ZAP be used to test mobile apps?*](https://www.zaproxy.org/faq/can-zap-be-used-to-test-mobile-apps/)
 - [Use Burp Suite for mobile testing](https://portswigger.net/burp/documentation/desktop/mobile)
+
+##### Android
+- [MASTG-TECH-0010: Basic network monitoring/sniffing](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0010/)
+- [MASTG-TECH-0011: Setting up an interception proxy](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0011/)
+- [MASTG-TECH-0022: Information gathering - Network communication](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0022/)
+- [MASTG-TECH-0003: Obtaining and extracting apps](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0003/)
+- https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0005/
+- https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0013/
+- https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0028/
+- https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0012/
+- https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0007/
+
+##### iOS
+- https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0074/
+- https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0065/
+- https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0056/
+- https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0063/
+- https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0064/
+- https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0088/
+- https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0062/
+- https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0058/
+- https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0054/
+- https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0065/
 
 ## 📚 Documentation
 If you are mapping several endpoints, and especially if you are attempting a comprehensive unofficial client build, it is worth documenting in detail what you find during the discovery phase. You may wish to consider keeping track of requests and responses in full (including payloads, headers, etc.). There are also tools used by developers of official APIs to document their implementation that work just as well for reverse engineers of unofficial APIs.
