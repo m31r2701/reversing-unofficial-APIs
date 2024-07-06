@@ -83,7 +83,7 @@ Any of the General tools for discovery, plus:
 - [How to use undocumented web APIs](https://jvns.ca/blog/2022/03/10/how-to-use-undocumented-web-apis/)
 - [Computational research in the post-API age](https://dfreelon.org/publications/2018_Computational_research_in_the_postAPI_age.pdf)
 - [Web scraping 201: Finding the API](http://www.gregreda.com/2015/02/15/web-scraping-finding-the-api/)
-- https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/12-API_Testing/01-Testing_GraphQL this is worth reading as it provides useful content on GraphQL APIs. However, bear in mind that unofficial API reversing is NOT ipso facto about hunting for 0days or trying to exploit the application (unless you are, for instance, participating in a recognise bug bounty program or on a pentest engagement).
+- https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/12-API_Testing/01-Testing_GraphQL this is worth reading as it provides useful content on GraphQL APIs. However, bear in mind that unofficial API reversing is NOT ipso facto about hunting for 0days or trying to exploit the application (unless you are, for instance, participating in a recognised bug bounty program or on a pentest engagement).
 
 ### Native apps (inc. mobile apps)
 #### 🛠️ Tools
