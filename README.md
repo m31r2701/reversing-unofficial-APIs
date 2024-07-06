@@ -89,6 +89,7 @@ Any of the General tools for discovery, plus:
 - [Ghidra](https://github.com/NationalSecurityAgency/ghidra)
 - [Android Emulator, packaged with Android Studio](https://developer.android.com/studio/run/emulator)
 - https://mas.owasp.org/MASTG/tools/
+- https://apkcombo.com
 
 #### 📖 Reading
 - [*How to use Ghidra to reverse engineer mobile application*](https://infosecwriteups.com/how-to-use-ghidra-to-reverse-engineer-mobile-application-c2c89dc5b9aa)
@@ -97,6 +98,14 @@ Any of the General tools for discovery, plus:
 - [Use Burp Suite for mobile testing](https://portswigger.net/burp/documentation/desktop/mobile)
 
 ##### Android
+- https://www.hackthebox.com/blog/intro-to-mobile-pentesting
+- https://petruknisme.medium.com/complete-beginners-guide-to-setup-android-pentest-lab-without-physical-device-4f7b9e945d11
+- https://medium.com/swlh/android-mobile-penetration-testing-lab-dfb8ceb4efbd
+- https://medium.com/@prnz_offl/android-pentesting-lab-setup-the-ultimate-how-to-d7aacf84c984
+- https://medium.com/purplebox/step-by-step-guide-to-building-an-android-pentest-lab-853b4af6945e
+- https://portswigger.net/burp/documentation/desktop/mobile/config-android-device
+- https://blog.yarsalabs.com/setting-up-burp-for-android-application-testing/
+- https://thezero.org/blog/2016/01/25/android_proxy_zap/
 - [MASTG-TECH-0010: Basic network monitoring/sniffing](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0010/)
 - [MASTG-TECH-0011: Setting up an interception proxy](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0011/)
 - [MASTG-TECH-0022: Information gathering - Network communication](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0022/)
