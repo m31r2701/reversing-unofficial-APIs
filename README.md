@@ -17,32 +17,55 @@ In terms of "rolling-your-own" client to directly ingest SOCMINT from unofficial
 
 Provided you know how to use a computer and access the internet, you don't really need to know much else to begin exploring the world of unofficial APIs. It's also not necessary to be able to read code, program, or use specialist tools when you first start out. Knowledge and skills will be picked up gradually and easily over time if you find it interesting.
 
-Here's an entirely optional (and opinionated) list of pages on Wikipedia that give a pretty good crash course in concepts and jargon:
+Here's an entirely optional (and opinionated) collection of extracts from Wikipedia (and other sources) which together provide a pretty good crash course in key concepts and jargon:
 
-- [Web 2.0](https://en.wikipedia.org/wiki/Web_2.0)
-- [Web service](https://en.wikipedia.org/wiki/Web_service)
-- [Request-response](https://en.wikipedia.org/wiki/Request–response)
-- [Client-server model](https://en.wikipedia.org/wiki/Client–server_model)
-- [Frontend and backend](https://en.wikipedia.org/wiki/Frontend_and_backend)
+## Web app
+> A web application (or web app) is application software that is accessed using a web browser. Web applications are delivered on the World Wide Web to users with an active network connection. [Single-page](#single-page-application-spa) and [progressive](#progressive-web-app-pwa) are two approaches for a website to seem more like a [native app](#native-app).
+*Source: [Wikipedia](https://en.wikipedia.org/wiki/Web_application)*
+
+## Native app
+> In computing, native software or data-formats are those that were designed to run on a particular operating system. In a more technical sense, native code is code written specifically for a certain processor. In contrast, cross-platform software can be run on multiple operating systems and/or computer architectures. 
+*Source: [Wikipedia](https://en.wikipedia.org/wiki/Native_(computing))*
+
+## Mobile app
+> A mobile application or app is a computer program or software application designed to run on a mobile device such as a phone, tablet, or watch. Mobile applications often stand in contrast to desktop applications which are designed to run on desktop computers, and [web applications](#web-app) which run in mobile web browsers rather than directly on the mobile device... Apps are broadly classified into three types: [native apps](#native-app), hybrid and [web apps](#web-app). [Native applications](#native-app) are designed specifically for a mobile operating system, typically iOS or Android. [Web apps](#web-app) are written in HTML5 or CSS and typically run through a browser. Hybrid apps are built using web technologies such as JavaScript, CSS, and HTML5 and function like web apps disguised in a native container. 
+*Source: [Wikipedia](https://en.wikipedia.org/wiki/Mobile_app)*
+
+## Single-page application (SPA)
+> A single-page application (SPA) is a [web application](#web-app) or website that interacts with the user by dynamically rewriting the current web page with new data from the [web server](https://en.wikipedia.org/wiki/Web_server), instead of the default method of a web browser loading entire new pages. The goal is faster transitions that make the website feel more like a [native app](#native-app). In a SPA, a page refresh never occurs; instead, all necessary HTML, JavaScript, and CSS code is either retrieved by the browser with a single page load, or the appropriate resources are dynamically loaded and added to the page as necessary, usually in response to user actions. 
+*Source: [Wikipedia](https://en.wikipedia.org/wiki/Single-page_application)*
+
+## Progressive web app (PWA)
+> A progressive web app (PWA) is an app that's built using web platform technologies, but that provides a user experience like that of a [platform-specific app](#native-app)... PWAs typically look like [platform-specific apps](#native-app) － they are usually displayed without the browser UI around them － but they are, as a matter of technology, still websites. This means they need a browser engine, like the ones in Chrome or Firefox, to manage and run them. With a [platform-specific app](#native-app), the platform OS manages the app, providing the environment in which it runs. With a PWA, a browser engine performs this background role, just like it does for normal websites. 
+*Source: [Mozilla](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app)*
+
+## Web service
+> A web service (WS) is either: a service offered by an electronic device to another electronic device, communicating with each other via the Internet, or a server running on a computer device, listening for [requests](#request-response) at a particular port over a network, serving web documents (HTML, [JSON](https://en.wikipedia.org/wiki/JSON), [XML](https://en.wikipedia.org/wiki/XML), images). In a web service, a web technology such as HTTP is used for transferring machine-readable file formats such as [XML](https://en.wikipedia.org/wiki/XML) and [JSON](https://en.wikipedia.org/wiki/JSON). In practice, a web service commonly provides an object-oriented web-based interface to a database server, utilized for example by another [web server](https://en.wikipedia.org/wiki/Web_server), or by a [mobile app](#mobile-app), that provides a user interface to the end-user. Many organizations that provide data in formatted HTML pages will also provide that data on their server as [XML](https://en.wikipedia.org/wiki/XML) or [JSON](https://en.wikipedia.org/wiki/JSON), often through a Web service to allow syndication. Another application offered to the end-user may be a [mashup](https://en.wikipedia.org/wiki/Mashup_(web_application_hybrid)), where a [Web server](https://en.wikipedia.org/wiki/Web_server) consumes several Web services at different machines and compiles the content into one user interface. 
+*Source: [Wikipedia](https://en.wikipedia.org/wiki/Web_service)*
+
+## Request-response
+> In computer science, request–response or request–reply is one of the basic methods computers use to communicate with each other in a network, in which the first computer sends a request for some data and the second responds to the request. More specifically, it is a message exchange pattern in which a requestor sends a request message to a replier system, which receives and processes the request, ultimately returning a message in response. It is analogous to a telephone call, in which the caller must wait for the recipient to pick up before anything can be discussed. This is a simple but powerful messaging pattern which allows two applications to have a two-way conversation with one another over a channel; it is especially common in [client–server architectures](#client-server-model). For simplicity, this pattern is typically implemented in a purely [synchronous](https://en.wikipedia.org/wiki/Synchronous_serial_communication) fashion, as in [web service](#web-service) calls over HTTP, which holds a connection open and waits until the response is delivered or the timeout period expires. However, request–response may also be implemented [asynchronously](https://en.wikipedia.org/wiki/Asynchronous_serial_communication), with a response being returned at some unknown later time. When a synchronous system communicates with an asynchronous system, it is referred to as "sync over async" or "sync/async". This is common in enterprise application integration (EAI) implementations where slow aggregations, time-intensive functions, or human workflow must be performed before a response can be constructed and delivered.
+*Source: [Wikipedia](https://en.wikipedia.org/wiki/Request–response)*
+
+## Client-server model
+> The client–server model is a distributed application structure that partitions tasks or workloads between the providers of a resource or service, called servers, and [service](#web-service) requesters, called clients. Often clients and servers communicate over a computer network on separate hardware, but both client and server may reside in the same system. A server host runs one or more server programs, which share their resources with clients. A client usually does not share any of its resources, but it requests content or service from a server. Clients, therefore, initiate communication sessions with servers, which await incoming requests. Examples of computer applications that use the client–server model are email, network printing, and the World Wide Web... The "client-server" characteristic describes the relationship of cooperating programs in an application. The server component provides a function or service to one or many clients, which initiate requests for such services. Servers are classified by the services they provide. For example, a web server serves web pages and a file server serves computer files. A shared resource may be any of the server computer's software and electronic components, from programs and data to processors and storage devices. The sharing of resources of a server constitutes a service... Generally, a service is an abstraction of computer resources and a client does not have to be concerned with how the server performs while fulfilling the request and delivering the response. The client only has to understand the response based on the well-known application protocol, i.e. the content and the formatting of the data for the requested service. Clients and servers exchange messages in a [request–response messaging pattern](#request-response). The client sends a request, and the server returns a response. This exchange of messages is an example of inter-process communication. To communicate, the computers must have a common language, and they must follow rules so that both the client and the server know what to expect. The language and rules of communication are defined in a communications protocol. All protocols operate in the application layer. The application layer protocol defines the basic patterns of the dialogue. To formalize the data exchange even further, the server may implement an application programming interface (API). The API is an abstraction layer for accessing a service. By restricting communication to a specific content format, it facilitates parsing. By abstracting access, it facilitates cross-platform data exchange.
+*Source: [Wikipedia](https://en.wikipedia.org/wiki/Client–server_model)*
+
+## Frontend and backend
+> In software engineering, the terms frontend and backend (sometimes written as back end or back-end) refer to the separation of concerns between the presentation layer (frontend), and the data access layer (backend) of a piece of software, or the physical infrastructure or hardware. In the [client–server model](#client-server-model), the client is usually considered the frontend and the server is usually considered the backend, even when some presentation work is actually done on the server itself... The frontend communicates with backend through an API. In the case of [web](#web-app) and [mobile](#mobile-app) frontends, the API is often based on HTTP [request/response](#request-response). The API is sometimes designed using the "Backend for Frontend" (BFF) pattern, that serves responses to ease the processing on frontend side.
+*Source: [Wikipedia](https://en.wikipedia.org/wiki/Frontend_and_backend)*
+
+## TODO
 - [Web server](https://en.wikipedia.org/wiki/Web_server)
-- [XML](https://en.wikipedia.org/wiki/XML)
 - [XMLHttpRequest](https://en.wikipedia.org/wiki/XMLHttpRequest)
-- [Web app](https://en.wikipedia.org/wiki/Web_application)
 - [Dynamic webpage](https://en.wikipedia.org/wiki/Dynamic_web_page)
 - [Responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design)
-- [Single-page application](https://en.wikipedia.org/wiki/Single-page_application)
-- [Progressive web app](https://en.wikipedia.org/wiki/Progressive_web_app)
-- [Mobile app](https://en.wikipedia.org/wiki/Mobile_app)
 - [API](https://en.wikipedia.org/wiki/API)
 - [Web API](https://en.wikipedia.org/wiki/Web_API)
 - [OpenAPI](https://en.wikipedia.org/wiki/OpenAPI_Specification)
-- [JSON](https://en.wikipedia.org/wiki/JSON)
 - [REST](https://en.wikipedia.org/wiki/REST)
 - [GraphQL](https://en.wikipedia.org/wiki/GraphQL)
-- [Mashup](https://en.wikipedia.org/wiki/Mashup_(web_application_hybrid))
 - [Access token](https://en.wikipedia.org/wiki/Access_token)
-- [Synchronous](https://en.wikipedia.org/wiki/Synchronous_serial_communication)
-- [Asynchronous](https://en.wikipedia.org/wiki/Asynchronous_serial_communication)
 - [Ajax](https://en.wikipedia.org/wiki/Ajax_(programming))
 - [Webhook](https://en.wikipedia.org/wiki/Webhook)
 - [WebSocket](https://en.wikipedia.org/wiki/WebSocket)
@@ -68,26 +91,25 @@ Reconnaissance and enumeration phase.
 - https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/12-API_Testing/01-Testing_GraphQL this is worth reading as it provides useful content on GraphQL APIs. However, bear in mind that unofficial API reversing is NOT ipso facto about hunting for 0days or trying to exploit the application (unless you are, for instance, participating in a recognised bug bounty program or on a pentest engagement).
 ### Native apps (inc. mobile)
 #### Android
+- [MASTG-TECH-0003: Obtaining and extracting apps](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0003/)
+- [MASTG-TECH-0005: Installing apps](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0005/)
+- [MASTG-TECH-0007: Exploring the app package](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0007/)
 - [MASTG-TECH-0010: Basic network monitoring/sniffing](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0010/)
 - [MASTG-TECH-0011: Setting up an interception proxy](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0011/)
+- [MASTG-TECH-0012: Bypassing certificate pinning](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0012/)
+- [MASTG-TECH-0013: Reverse engineering Android apps](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0013/)
 - [MASTG-TECH-0022: Information gathering - Network communication](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0022/)
-- [MASTG-TECH-0003: Obtaining and extracting apps](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0003/)
-- [MASTG-TECH-0005](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0005/)
-- [MASTG-TECH-0013](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0013/)
-- [MASTG-TECH-0028](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0028/)
-- [MASTG-TECH-0012](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0012/)
-- [MASTG-TECH-0007](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0007/)
+- [MASTG-TECH-0028: Get open connections](https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0028/)
 #### iOS
-- [MASTG-TECH-0074](https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0074/)
-- [MASTG-TECH-0065](https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0065/)
-- [MASTG-TECH-0056](https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0056/)
-- [MASTG-TECH-0063](https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0063/)
-- [MASTG-TECH-0064](https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0064/)
-- [MASTG-TECH-0088](https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0088/)
-- [MASTG-TECH-0062](https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0062/)
-- [MASTG-TECH-0058](https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0058/)
-- [MASTG-TECH-0054](https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0054/)
-- [MASTG-TECH-0065](https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0065/)
+- [MASTG-TECH-0054: Obtaining and extracting apps](https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0054/)
+- [MASTG-TECH-0056: Installing apps](https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0056/)
+- [MASTG-TECH-0058: Exploring the app package](https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0058/)
+- [MASTG-TECH-0062: Basic network monitoring/sniffing](https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0062/)
+- [MASTG-TECH-0063: Setting up an interception proxy](https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0063/)
+- [MASTG-TECH-0064: Bypassing certificate pinning](https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0064/)
+- [MASTG-TECH-0065: Reverse engineering iOS apps](https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0065/)
+- [MASTG-TECH-0074: Information gathering - Network communication](https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0074/)
+- [MASTG-TECH-0088: Emulation-based analysis](https://mas.owasp.org/MASTG/techniques/ios/MASTG-TECH-0088/)
 ## 🛠️ Tools
 Note, many of these tools imply a black-box scenario. If the target platform is fully open source or even partly so, it may be possible to enumerate unofficial API endpoints by simply reading the source code. There may also be official documentation publicly available that will help with this and serve as an aide-mémoire when you come to the "fuzzing" and "collection" phases of the process.
 - [Wireshark](https://www.wireshark.org)
