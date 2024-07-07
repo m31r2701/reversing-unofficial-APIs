@@ -173,7 +173,7 @@ There are various techniques that can be used to prevent a platform detecting an
 - User agent switching, provided contradictory and / or unique fingerprint not emitted by your client
   - Note: anti-fingerprinting measures, beyond user agent switching, quickly get complex and there's a continual arms race between fingerprinters / anti-fingerprinters
 - IP rotation: works better with residential rather than with data centre IP addresses typically provided by VPNs or proxies - this is likely to be quite expensive, however. [Using AWS Lambda for easy-mode IP rotation or even an array of dongles to get mobile / cell IPs are also inventive strategies](https://incolumitas.com/2021/11/03/so-you-want-to-scrape-like-the-big-boys/)
-- Cloudflare evasion: several methods include trawling Shodan and Censys for server IPs behind Cloudflare IPs (exposed as a result of misconfiguration) to bypass Cloudflare - this is usually the most productive approach, though is not the only one. Do not accidentally DOS or DDOS the service - this is likely to be illegal.
+- Cloudflare evasion: several methods include trawling Shodan and Censys for server IPs behind Cloudflare IPs (exposed as a result of misconfiguration) to bypass Cloudflare - this is usually the most productive approach, though is not the only one. Do not accidentally DOS or DDOS the service - even if it's an unintentional, this will be illegal if (as seems likely) you do not own the service or have permission from the owner.
 
 As with anti-fingerprinting, block evasion in general is a complex and fast changing area. The hard work will be ensuring the code you write today continues to work as fingerprinting and anti-bot measures evolve. This dynamism is compounded by target sites occasionally refactoring their APIs. Always stay on the right side of the law and don't do anything that you will be unable to defend (possibly in a court of law).
 
@@ -200,7 +200,7 @@ As with anti-fingerprinting, block evasion in general is a complex and fast chan
 - [Invidious](https://github.com/iv-org/invidious)
 - [Nitter](https://github.com/zedeus/nitter)
 
-# ⁉️ Isn't this just that web scraping thing i've head about but with more steps?
+# ⁉️ Isn't this just web scraping but with more steps?
 
 There is an undeniable degree of overlap between conventional web scraping and unofficial API reversing. Nevertheless, considering the latter to be merely a subset of web scraping ignores the fact that when people talk about "web scraping" they really mean "screen scraping": parsing and extracting data from the DOM of a rendered webpage (even using computer vision tech to grab imagery as well as text). Unofficial API reversing has the same objective (i.e., extracting data) but has its own set of methods (beyond some common approaches), and it does neither the topic at hand nor web scraping any favours by conflating the two. Sometimes when you're reaching for an unofficial means of extracting data, web scraping will be the tool you need and at other times unofficial APIs will be.
 
