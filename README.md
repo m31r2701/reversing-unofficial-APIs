@@ -139,6 +139,7 @@ Note, many of these tools imply a black-box scenario. If the target platform is 
 #### Android
 - [Android Emulator, packaged with Android Studio](https://developer.android.com/studio/run/emulator)
 - https://apkcombo.com
+- This one is the best guide for setting up an unofficial API reversing lab using an Android device: https://blog.lrvt.de/android-penetration-testing-lab-environment/
 - https://www.hackthebox.com/blog/intro-to-mobile-pentesting
 - https://petruknisme.medium.com/complete-beginners-guide-to-setup-android-pentest-lab-without-physical-device-4f7b9e945d11
 - https://medium.com/swlh/android-mobile-penetration-testing-lab-dfb8ceb4efbd
