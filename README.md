@@ -81,6 +81,8 @@ Reconnaissance and enumeration phase.
 - [*API Discovery: 15 ways to find APIs*](https://nordicapis.com/api-discovery-15-ways-to-find-apis/)
 - [*Discover APIs* section on unofficial APIs](https://stevesie.com/docs/discover-apis#unofficial-apis)
 - [*How To Find API Endpoints Of A Website: A Complete Guide*](https://techreviewgarden.com/how-to-find-api-endpoints-of-a-website/)
+- https://jero.zone/posts/reverse-engineering-apis
+  - HN discussion: https://news.ycombinator.com/item?id=42057903
 - [soxoj](https://github.com/soxoj)'s [Hardcore OSINT : Reversing social media mechanisms](https://www.youtube.com/watch?v=0yQRf0Mx-hc), see also the following from [soxoj](https://github.com/soxoj)'s [SOWEL (SOCMINT Weaknesses Enumeration List)](https://sowel.soxoj.com/about):
   - [SOTL-1.4. Analyze Internal Identifiers](https://sowel.soxoj.com/internal-identifiers)
   - [SOTL-1.6. Iterate Through Numeric Identifiers](https://sowel.soxoj.com/Techniques/SOTL-1.6.+Iterate+Through+Numeric+Identifiers)
@@ -191,6 +193,7 @@ As with anti-fingerprinting, block evasion in general is a complex and fast chan
 
 # Examples
 - [Rolstenhouse/unofficial-apis](https://github.com/Rolstenhouse/unofficial-apis)
+- [Venmo unofficial API](https://github.com/Integuru-AI/Venmo-Unofficial-API) and interesting [HN discussion](https://news.ycombinator.com/item?id=42178130)
 
 ## OSINT / SOCMINT tools
 - [Instaloader](https://github.com/instaloader/instaloader/tree/master)
